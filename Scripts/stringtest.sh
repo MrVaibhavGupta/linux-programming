@@ -7,12 +7,13 @@ else
     if [ -z "$String2" ]   
     then
         echo "String2 is null"
+    else 
+        if [ "$String1" = "$String2" ]
+        then 
+            echo "Strings are same"
+        elif [ "$Sring1" != "$String2" ]
+        then 
+            echo "String are different"
+        fi
     fi
-fi
-if [ "$String1" = "$String2" ]
-then 
-    echo "Strings are same"
-elif [ "$Sring1" != "$String2" ]
-then 
-    echo "String are different"
 fi
