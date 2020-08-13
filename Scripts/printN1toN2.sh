@@ -4,5 +4,5 @@ count=$n1
 while [ $count -le $n2 ]
 do
     echo $count
-    count=`expr $count +1`
+    count=`expr $count + 1`
 done
