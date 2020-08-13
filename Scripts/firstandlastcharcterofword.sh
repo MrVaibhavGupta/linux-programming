@@ -6,6 +6,7 @@ case $word in
     ;;
 [AEIOU]*)
     echo "First character is UPPER CASE vowel"
+    ;;
 [a-z]*) 
     echo "First character is lower case"
     ;;
