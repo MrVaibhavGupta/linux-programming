@@ -27,6 +27,7 @@ case $word in
     ;;
 *[AEIOU])
     echo "Last character is Upper CASE vowel"
+    ;;
 *[a-z]) 
     echo "Last character is lower case"
     ;;
