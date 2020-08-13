@@ -1,5 +1,5 @@
 read -p "Enter file name :" fname
-if [ -f $fname]
+if [ -f $fname ]
 then 
     word=`wc -w $fname`
     line=`wc -l $fname`
