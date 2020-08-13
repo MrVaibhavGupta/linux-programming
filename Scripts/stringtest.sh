@@ -17,3 +17,5 @@ else
         fi
     fi
 fi
+# -n to check not null strings
+# -z to check null strings
