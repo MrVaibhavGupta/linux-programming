@@ -1,5 +1,5 @@
 echo "Please provide me the name of file"
-read fname
+read git fname
 if [ -s $fname ]
 then 
     echo "File is not empty"
