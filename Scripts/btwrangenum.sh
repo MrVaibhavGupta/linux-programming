@@ -1,9 +1,14 @@
-echo "Enter number between 10 and 20:\c"
+echo "This script is to check the number if within range"
+echo "Enter Lower range"
+read lrg
+echo "Enter Upper range"
+read urg
+echo "Number to test"
 read num
-if [ $num -lt 10 ]
+if [ $num -lt $lrg ]
 then 
     echo "Number is below the belt"
-elif [ $num -gt 20 ]
+elif [ $num -gt $urg ]
 then 
     echo "Number is above the belt"
 else
