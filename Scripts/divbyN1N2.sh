@@ -6,8 +6,8 @@ then
 else
     echo "Enter the number to test"
     read num
-    result1 = `exp $num % $n1`
-    result2 = `exp $num % $n2`
+    result1 = `expr $num % $n1`
+    result2 = `expr $num % $n2`
     if [ $result1 = 0 -a $result2 = 0 ]
     then 
         echo "Passed the divisibility check"
