@@ -1,0 +1,1 @@
+echo "There are total of $# content in the directory"
