@@ -6,5 +6,5 @@ until [ $count = $n2 ]
 do
     echo $table
     count=`expr $count + 1`
-    table=`expr $table \* $n1`
+    table=`expr $table \* $count`
 done
