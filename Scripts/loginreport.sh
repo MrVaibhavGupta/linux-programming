@@ -2,6 +2,7 @@ read -p "Enter the username: " logname
 grep "$logname" /etc/passwd > /dev/null
 if [ $? -eq 0 ]
 then 
+    echo "Wait...."
     time=0
     who | grep "$logname" > /dev/null
     if [ $? -eq 0 ]
@@ -17,6 +18,9 @@ then
             echo "and is $time second late"
 
         fi
+    else
+        time=`expr $time + 1`
+        sleep 1
     fi  
 else 
     echo "Invalid username"
